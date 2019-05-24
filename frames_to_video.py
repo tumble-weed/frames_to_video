@@ -14,7 +14,7 @@ copied from: https://www.life2coding.com/convert-image-frames-video-file-using-o
 import os
 import cv2
 
-def to_video(pathIn,
+def frames_to_video(pathIn,
             pathOut,
              fps,
              
