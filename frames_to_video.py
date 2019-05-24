@@ -33,7 +33,7 @@ def to_video(pathIn,
         img = cv2.imread(filename)
         height, width, layers = img.shape
         size = (width,height)
-        print(filename)
+#         print(filename)
         #inserting the frames into an image array
         frame_array.append(img)
 
