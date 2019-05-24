@@ -11,6 +11,7 @@ Original file is located at
 a small api to convert frames into a video using opencv
 copied from: https://www.life2coding.com/convert-image-frames-video-file-using-opencv-python/
 '''
+import os
 import cv2
 
 def to_video(pathIn,
